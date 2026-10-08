@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #fff7fb; color: #4a2035; }
+.app { min-height: 100vh; }
+nav { padding: 20px 8%; background: #831843; color: white; display: flex; justify-content: space-between; align-items: center; }
+nav a { color: white; text-decoration: none; margin-left: 22px; }
+nav a:hover { color: #fbcfe8; }
+main { width: min(850px, 90%); margin: 60px auto; background: white; padding: 45px; border-radius: 20px; box-shadow: 0 10px 30px #fbcfe8; border: 1px solid #fce7f3; }

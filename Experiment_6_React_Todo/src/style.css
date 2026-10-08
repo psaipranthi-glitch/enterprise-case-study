@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: linear-gradient(135deg, #fce7f3, #fff7fb); color: #4a2035; }
+.todo { width: min(650px, 92%); margin: 70px auto; background: white; padding: 30px; border-radius: 20px; box-shadow: 0 15px 35px #f9a8d4; }
+h1 { color: #831843; }
+form { display: flex; gap: 10px; }
+input { flex: 1; padding: 13px; border: 1px solid #f9a8d4; border-radius: 10px; }
+button { border: 0; border-radius: 10px; padding: 10px 16px; background: #db2777; color: white; cursor: pointer; }
+.summary { margin: 20px 0; color: #9d174d; }
+.task { display: flex; justify-content: space-between; align-items: center; padding: 14px; margin: 10px 0; background: #fce7f3; border-radius: 10px; }
+.task span { cursor: pointer; flex: 1; }
+.done { text-decoration: line-through; color: #9d174d; }
+.task button { background: #be185d; }

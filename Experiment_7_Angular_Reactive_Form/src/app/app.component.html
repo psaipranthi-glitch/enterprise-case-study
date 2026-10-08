@@ -1,0 +1,23 @@
+<div class="container">
+  <h1>Student Contact Form</h1>
+  <p>Pyata Sai Pranathi | Roll No: 160124748016</p>
+  <form [formGroup]="contactForm" (ngSubmit)="submitForm()">
+    <label>Name</label>
+    <input type="text" formControlName="name">
+    <small *ngIf="submitted && name.invalid">Enter at least 3 characters.</small>
+
+    <label>Email</label>
+    <input type="email" formControlName="email">
+    <small *ngIf="submitted && email.invalid">Enter a valid email.</small>
+
+    <label>Phone</label>
+    <input type="text" formControlName="phone">
+    <small *ngIf="submitted && phone.invalid">Enter a valid 10-digit phone number.</small>
+
+    <label>Message</label>
+    <textarea rows="5" formControlName="message"></textarea>
+    <small *ngIf="submitted && message.invalid">Message must contain at least 10 characters.</small>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>

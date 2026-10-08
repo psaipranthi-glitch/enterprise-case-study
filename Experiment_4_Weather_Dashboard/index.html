@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Weather Forecast Dashboard</h1>
+    <div class="search">
+        <input id="cityInput" type="text" placeholder="Enter city name" value="Hyderabad">
+        <button id="searchBtn">Search</button>
+    </div>
+    <p id="status"></p>
+    <section id="weather" class="weather-card">
+        <h2 id="city">--</h2>
+        <div class="current">
+            <strong id="temperature">--°C</strong>
+            <span id="wind">Wind: -- km/h</span>
+        </div>
+        <div id="forecast" class="forecast"></div>
+    </section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
